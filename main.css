@@ -1,0 +1,388 @@
+body {
+    background: #DADADA;
+    color:#47484B;
+    font: 12pt/10pt sans-serif;
+    src: url(Helvetica.otf);
+    font-size: 90%;
+    
+   }  
+
+
+/* button::after{
+    content:	"Toolship"; /*  content:   attr(data-tooltip); для виведення відповідного атрибуту 
+    display:inline-block;
+    padding: 0px;
+    background-color: transparent;
+    border: 0px splid transparent;
+    border-radius: 1px;
+    margin-left: -40px;
+    transition: all 300ms linear;
+    color: transparent;
+    position: absolute;
+    margin-left: -25px;
+    
+}
+
+button:hover::after{
+  
+    padding: 5px;
+    background:blue;
+    color:white;   
+    border-radius: 10px;
+    margin-left: -40px;
+    transform: translateY(-40px);
+    background-color: brown;
+    margin-left: -25px;
+    
+}
+*/
+h1,h2,h3 {
+    color: white;
+}
+h3{
+    padding: 10px;
+    text-align: left;
+    font-weight: lighter;  
+}
+#tamplate, #template_2{
+    display: none;
+}
+
+
+.container{ 
+    
+    margin-left: 10%;
+    margin-top: 150px;
+    width: 80%;
+    display: flex;
+    min-width: 500px;
+}
+
+#leftP{
+    width:60%;
+    background-color: transparent;
+    height: auto;
+}
+#rightP{
+     width:30%;
+    background-color: transparent;
+    height: auto;
+    margin-left: 5%;
+}
+.left , .right {
+      
+    width:100%;
+    margin: 0px;
+    background-color: white; 
+    border: 1px solid #DADADA;
+    border-radius: 5px;
+    
+    box-shadow: 5px 5px 10px    gray;
+    display: block;
+    height: auto;
+    
+}
+
+.text_block_2{
+    
+    margin:10px;
+    margin-top: 7px;
+    padding-left: 10px; 
+    font-size: 130%;  
+    font-weight: bold;
+    text-align: center;
+}
+.text{
+    width:  35%;
+    margin-top: 6px;
+    margin-left: 5px;
+
+}
+.text-through{
+    text-decoration: line-through;
+}
+.input{
+    width: 25%;
+    height: 16px;
+    margin-top: 3px;
+    margin-left: 5px;
+    padding-left: 3px;
+    border: 1px solid #DADADA;
+    border-radius: 3px;
+   
+    background-color: inherit; 
+}
+.punkt{
+    display:inline-block;
+    width: auto;
+    height: 70%;
+    margin-top:3px;;
+    margin-bottom: auto;
+    margin-left: 10px;
+    padding: 3px;
+    padding-left:    7px;
+    border: 0px solid gray;
+    border-radius: 3px;
+    background-color:#E8E8E8;
+    padding-top: 3px;
+    
+}
+#text_punkt{
+     display: inline;
+}
+
+.round{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 3px;
+    text-align: center;
+    padding-top: 2px;
+    padding-left:    0px;
+    border: 0px solid gray;
+    border-radius: 16px;
+    background-color:#F2711C;
+    color: white;   
+}
+
+.buy{
+    background-color: #F2F2F2;
+    border: 1px solid #DADADA;
+    border-radius: 3px;
+    box-shadow: 0px 3px   #DADADA; 
+    margin-left: 30px;
+    color:#626262;
+    font-size: 75%;
+    font-weight: bold;
+    height: 20px;
+    width: 60px;
+    
+}
+
+.x{
+    width: 20px;
+    height: 20px;
+    background-color: #DA2828;
+    border: 1px solid #DA2828;
+    border-radius: 3px;
+    box-shadow:  0px 3px #BF2728;
+    margin-left: 0px;
+    color: aliceblue;
+}
+.not_visible{
+    display: none;
+}
+
+.centr_button_box{
+    margin-left:35%;
+    margin-top: 3px;
+    width: 100px;
+    position: absolute;
+}
+
+.righr_button_box{
+    width: 120px;
+    background-color: inherit; 
+    margin-left: auto;
+    margin-top: 2px;
+    margin-right: 30px;
+    
+}
+.plus_button{
+    width: 24px;
+    height: 24px;
+    margin-left: 7px;
+    border: 0px;
+    border-radius: 12px;
+    background: #21BA45;
+    color:white;
+    
+}
+.minus_button_nActive{
+    width: 24px;
+    height: 24px;
+    border: 0px;
+    border-radius: 12px;
+    color:white;
+    background: gray;
+}
+
+.minus_button{
+    width: 24px;
+    height: 24px;
+    border: 0px;
+    border-radius: 12px;
+    background: #EF9E9E;
+    color:white;
+}
+
+.number{
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-left: 4px;
+    padding: 3px;
+    padding-left:    7px;
+    padding-right: 7px;
+    border: 0px solid gray;
+    border-radius: 3px;
+    background-color:#E8E8E8;
+   
+}
+
+
+.add_button{
+    
+    width: 70px;
+    height: 17px;
+    border: 1px solid #2185D0;
+    border-radius: 3px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius:0px;
+    box-shadow: 0px 3px #2176B7;
+    background: #2185D0;
+    margin-left: -1px;
+    margin-top: 4px;
+    color:white;
+    font-size: 75%;
+    font-weight: bold;
+    margin-right: 30px;
+    
+}
+.search{
+    width: 600px;
+    height: 16px;
+    margin-top:4px;
+    margin-left: 6px;
+    margin-right: 0px;
+    padding-left: 6px;
+    border: 1px solid #DADADA;
+    border-radius: 3px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius:0px;
+    background-color: inherit; 
+}
+
+
+.row{
+    background-color: transparent;  
+    width: 100%;
+    height: 30px;
+    margin: 0px;
+    
+    border: 1px solid #DADADA;
+    border-style: solid none none none;
+    display:flex;
+    position: relative;
+    
+}
+
+.rowR{
+    background-color: transparent;  
+    width: 100%;
+    min-height: 10px;
+    margin: 0px;
+    
+    border: 1px solid #DADADA;
+    border-style: solid none none none;
+    display:block;
+    position: relative;
+    
+}
+
+.row_up{
+    
+    background-color: transparent; 
+    width: 100%;
+    height: 30px;
+    margin: 0px;
+    
+    border: 0px solid #DADADA;
+    border-radius: 5px;
+    
+    display:flex;
+}
+.row_down{
+    
+    background-color:  transparent; 
+    width: 100%;
+    height: 30px;
+    margin: 0px;
+    padding: 4px;
+    border: 0px solid #DADADA;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    display:flex;
+}
+
+.buyList{
+    
+    width: 150px;
+    height: 200px;
+    position: fixed;
+    left: 50px;
+    bottom: -150px;
+    background-color: blueviolet;
+    border: 0px solid white;
+    border-radius: 8px;
+    padding: 20x;
+    text-align: center;
+    transition: all 700ms linear;
+   
+}
+.buyList:hover{
+    
+    transform: translateY(-100px);
+    background-color: blue;
+}
+
+.secondText{
+    display: none;
+    padding: 0px;
+}
+
+@media	(min-width:	800px)	{
+    
+}
+    @media	(max-width:	800px)	{
+        
+        .container	{
+            display: block;    
+        }
+        
+        .left {
+            width:100%;
+        }
+        .right{
+            width: 100%;
+            margin-top: 50px;
+            margin-left: 0px;
+        }
+        #leftP{
+            width: 100%;
+            
+       
+        }
+        #rightP{
+            width: 100%;
+            margin-left: 0%;
+        }
+    }
+
+
+ @media	print	{
+     h1, h2, p {
+     color: black; 
+    }
+     .secondText{
+         display: block;
+     }
+
+     .buyList{
+        border: 2px solid blueviolet;
+     }
+     
+    }
+
+
+
